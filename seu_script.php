@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-$apiKey = '30244dd2a6501be4a4e2e8b270e4a56c-us10';
-$audienceId = '8ce691efbe';
+$apiKey = 'API_MAILCHIMP';
+$audienceId = 'AUDIENCE_ID';
 $datacenter = substr($apiKey, strpos($apiKey, '-') + 1);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
